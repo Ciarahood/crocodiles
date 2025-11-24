@@ -3,7 +3,7 @@
 *10 November 2025*  
 Creating my first HTML page
 
-[Version 2](https://github.com/Ciarahood/street-of-crocodiles/blob/5b9c18845298e6c3af4789f241acd7f77963494f/index%20copy.html)  
+[Version 2](https://github.com/Ciarahood/street-of-crocodiles/blob/gh-pages/index%20copy.html)  
 *17 November 2025*  https://vscode.dev/github.com/Ciarahood/street-of-crocodiles/blob/gh-pages/index%20copy.html#L7
-Creating my first CSS
+Creating my first CSS 
 
