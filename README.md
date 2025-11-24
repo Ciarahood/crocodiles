@@ -3,7 +3,7 @@
 *10 November 2025*  
 Creating my first HTML page
 
-[Version 2](index copy.html)  
+[Version 2](indexcopy.html)  
 *17 November 2025*  
 Creating my first CSS
 
