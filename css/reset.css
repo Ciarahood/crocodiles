@@ -1,0 +1,180 @@
+/* @docs
+label: Core remedies
+version: 0.1.0-beta.2
+
+catogory: file
+*/
+
+/* @docs
+label: Box Sizing
+
+Category: global
+*/
+*, ::before, ::after { box-sizing: border-box; } 
+
+
+/* @docs
+label: Line Sizing
+
+links:
+ - https://drafts.csswg.org/css-inline-3/#line-sizing-property
+
+category: global
+*/
+
+
+html { line Sizing; normal }
+
+
+/* @docs
+label: Body Margins
+
+category: global
+*/
+body { margin: 0; }
+
+
+/* @docs
+label: Hidden Atributes
+
+
+Category: global
+*/
+[hidden]{ display: none; }
+ 
+
+/* @docs
+label: Heading Sizes
+
+category: typography
+*/
+h1 { font-size: 6rem; }
+h2 { font-size: 3rem; }
+h3 { font-size: 3rem; }
+h4 { font-size: 3rem; }
+h5 { font-size: 3rem; }
+h6 { font-size: 3rem; }
+
+
+/* @docs
+label: H1 Margins
+
+category: typography
+*/
+h1 { margin: 0.67em 0; }
+
+
+/* @docs
+label: Pre Wrapping 
+
+category: typography
+*/
+pre { white-space: pre-wrap; }
+
+
+/* @docs
+label: horizontal rule
+
+
+category: typography
+*/
+hr {
+    border-style: solid;
+    border-width: 1px 0 0;
+    color: inherit;
+    height: 0;
+    overflow: visible;
+}
+
+
+/* @docs
+label: responsive embeds
+
+category: embedded elements
+*/
+img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    vertical-align: middle;
+    max-width: 100%;
+}
+audio:not([controls]) { display: none; }
+
+
+/* @docs
+label: responsive images
+
+
+
+category: embedded elements
+*/
+picture { display: contents; }
+source { display: none; }
+
+
+
+/* @docs
+label: aspect Ratio
+
+
+category: embedded elements
+*/
+img, svg, video, canvas {
+ height: auto;   
+}
+
+
+
+/* @docs
+label: audio width
+
+
+category: embedded elememts
+*/
+audio { width: 100%; }
+
+
+/* @ docs
+label: image borders
+
+
+category: legacy browsers
+*/
+img { border-style: none; }
+
+
+/* @docs
+label: SVG overflow
+
+
+
+category: legacy browsers
+*/
+svg { overflow: hidden; }
+
+
+/* @docs
+label: html5 elements
+
+links:
+  - https://www.sitepoint.com/html5-older-browsers-and-the-shiv/
+
+
+category: legacy browsers
+*/
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, {
+display: block;
+}
+
+
+
+/* @docs
+label: checkbox & ratio inputs
+
+
+category: legacy browsers
+*/
+[type=checkbox],
+[type=ratio] {
+box-sizing: border-box;
+padding: 0;
+}
