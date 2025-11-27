@@ -1,5 +1,5 @@
 # crocodiles
-[Version 1](file:///home/chronos/u-6c7e6d6ddfbadc9248a56ebe01cdda3b7ac1938b/MyFiles/Downloads/GIThub/index%20(2).html)  
+[Version 1](index (2).html)  
 *10 November 2025*  
 Creating my first HTML page
 
