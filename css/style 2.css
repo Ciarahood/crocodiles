@@ -20,7 +20,7 @@ color: #821010;
 
 h1 {
     font-size: 9rem;
-    background: #f99e9e
+    
 }
 header, h1 {
     
@@ -72,8 +72,10 @@ blockquote {
     hanging-punctuation: first;
     text-indent: -0.06;
 }
-
-a {color:#7c2424;
+div{background-color: #fc8383;}
+ul {background-color: #fc8383;}
+li a {color:#7c2424;
+    background-color: #fc8383;
 text-decoration: none;
 border-bottom: 2px dotted;
 font-weight: 600;}
@@ -128,4 +130,3 @@ footer {
     background: #fc8383;
     padding: 3rem 0;
 }
-
