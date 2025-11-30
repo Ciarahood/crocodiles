@@ -1,5 +1,5 @@
 # crocodiles
-[Version 1](index (2).html)  
+[Version 1]( https://ciarahood.github.io/crocodiles/)  
 *10 November 2025*  
 Creating my first HTML page
 
