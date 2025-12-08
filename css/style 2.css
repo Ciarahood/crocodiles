@@ -16,6 +16,7 @@ margin-bottom: 5rem;
 header, h1, h2, blockquote {
 font-family: serif;
 color: #821010;
+text-align: center;
 }
 
 h1 {
@@ -34,6 +35,7 @@ header, h1 {
 
 h2 {
 font-size: 5rem;
+text-align: center;
 }
 header h2 {
     font-family: serif;
@@ -41,10 +43,12 @@ header h2 {
     color: #7a1313;
     font-style: oblique;
     margin-bottom: 4rem;
+    text-align: center;
 }
 
 p1 { font-size: 3rem;
 color: #7a1313;
+text-align: center;
 }
 
 
@@ -54,12 +58,14 @@ color: #7a1313;
 p {
     line-height: 1.6;
     color: #270404;
-font-size: 1.2rem;}
+font-size: 1.2rem;
+text-align: center;}
 
 header p {
     font-size: 4rem;
     font-family: serif;
     color: #961d1d;
+    text-align: center;
 }
 blockquote {
     margin: 4rem 0 2rem 0;
@@ -89,6 +95,7 @@ a:hover {color: #520d0d;}
    align-items: center;
 }
 
+
 #logo {
     font-size: 2rem;
     color: #853a3a;
@@ -96,6 +103,13 @@ a:hover {color: #520d0d;}
     font-weight: 600;
     padding-left: 35px;
 }
+
+.gridimage {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
 
 nav {
     display: flex;
