@@ -4,8 +4,9 @@ color: #000000;
 font-family: serif;
 font-weight: 500;
 }
-section, header {
-width: 90%;
+
+section{
+width: 80%;
 max-width: 800px;
 margin: auto;
 margin-bottom: 5rem;
@@ -13,7 +14,7 @@ margin-bottom: 5rem;
 
 
 
-header, h1, h2, blockquote {
+h1, h2, blockquote {
 font-family: serif;
 color: #821010;
 text-align: center;
@@ -23,21 +24,17 @@ h1 {
     font-size: 9rem;
     
 }
-header, h1 {
-    
-    line-height: 3;
+.header h1 {  
     color: #8b1111;
-    margin: 6rem 0 1rem 0;
+    margin: 5rem 0 1rem 0;
     text-align: center;
 }
-
-
 
 h2 {
 font-size: 5rem;
 text-align: center;
 }
-header h2 {
+.header h2 {
     font-family: serif;
     font-weight: 300;
     color: #7a1313;
@@ -46,26 +43,16 @@ header h2 {
     text-align: center;
 }
 
-p1 { font-size: 3rem;
-color: #7a1313;
-text-align: center;
-}
-
-
-
-
 
 p {
     line-height: 1.6;
     color: #270404;
-font-size: 1.2rem;
-text-align: center;}
+}
 
-header p {
-    font-size: 4rem;
+.header p {
+    font-size: 1.5rem;
     font-family: serif;
     color: #961d1d;
-    text-align: center;
 }
 blockquote {
     margin: 4rem 0 2rem 0;
@@ -79,12 +66,15 @@ blockquote {
     text-indent: -0.06;
 }
 div{background-color: #fc8383;}
+
 ul {background-color: #fc8383;}
+
 li a {color:#7c2424;
     background-color: #fc8383;
 text-decoration: none;
 border-bottom: 2px dotted;
 font-weight: 600;}
+
 a:hover {color: #520d0d;}
 
 .responsivenav {
@@ -145,7 +135,8 @@ footer {
     background: #fc8383;
     padding: 3rem 0;
 }
-li a {align-items: center};
+
+
 @media (max-width: 600px) 
 {
 header h1 {
@@ -153,7 +144,7 @@ header h1 {
     text-align: center;
 }
 
-.gridimage {
-    row-gap: 10px;
-}
+
+.gridimage { 
+    row-gap: 10px;}
 }
