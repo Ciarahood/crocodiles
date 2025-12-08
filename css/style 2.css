@@ -138,9 +138,22 @@ footer {
     text-align: center;
     font-size: 0.8rem;
     padding: 4rem 0;
+    align-content: center;
 }
 
 .light {
     background: #fc8383;
     padding: 3rem 0;
+}
+li a {align-items: center};
+@media (max-width: 600px) 
+{
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.gridimage {
+    row-gap: 10px;
+}
 }
